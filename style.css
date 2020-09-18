@@ -1,8 +1,24 @@
 
- @media (min-width: 768px) {
-   .flex-md-equal > * {
-     -ms-flex: 1;
-     flex: 1;
+body {
+  background-color: rgb(251, 251, 251);
+}
+
+@media (min-width: 768px) {
+    .flex-md-equal > * {
+    -ms-flex: 1;
+    flex: 1;
    }
  }
  
+.image1
+{
+  opacity: 0.5;
+}
+
+.intro 
+{
+  font-family: Avantgarde;
+  color:#000000;
+  font-weight: 1000;
+  font-size: 20px;
+}
