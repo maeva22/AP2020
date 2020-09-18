@@ -1,15 +1,8 @@
-h1
-{
-   font-style: oblique;
-   font-family: Avantgarde;
-   color:#b300b3;
-   font-weight: bold;
-   font-size: 50px
-}
 
-h5
-{
-   font-style: oblique;
-   color: #3366ff;
-   
-}
+ @media (min-width: 768px) {
+   .flex-md-equal > * {
+     -ms-flex: 1;
+     flex: 1;
+   }
+ }
+ 
