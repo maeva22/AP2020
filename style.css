@@ -10,15 +10,28 @@ body {
    }
  }
  
-.image1
+#texte 
 {
-  opacity: 0.5;
+  font-family: Arial;
+  color:#000000;
+  font-size: 20px;
 }
 
-.intro 
+.texte
 {
-  font-family: Avantgarde;
-  color:#000000;
-  font-weight: 1000;
-  font-size: 20px;
+  color: black;
+}
+.texte:hover
+{
+  color:blue;
+}
+.texte:active
+{
+  color: aqua;
+}
+
+.card-group
+{
+  font-family: Arial;
+  text-align: center;
 }
