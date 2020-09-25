@@ -2,13 +2,11 @@
 body {
   background-color: rgb(251, 251, 251);
 }
-
-@media (min-width: 768px) {
-    .flex-md-equal > * {
-    -ms-flex: 1;
-    flex: 1;
-   }
- }
+.card-img-top
+{
+  max-width: 500px;
+  max-height: 200px;
+}
  
 #texte 
 {
