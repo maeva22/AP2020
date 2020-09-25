@@ -3,7 +3,7 @@ body {
   background-color: rgb(251, 251, 251);
 }
 
-@media (min-width: 768px) {
+@media (max-width: 768px) {
     .flex-md-equal > * {
     -ms-flex: 1;
     flex: 1;
