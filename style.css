@@ -4,8 +4,8 @@ body {
 }
 .card-img-top
 {
-  min-width: 500px;
-  min-height: 200px;
+  max-width: 500px;
+  max-height: 200px;
 }
  
 #texte 
