@@ -33,3 +33,7 @@ body {
   font-family: Arial;
   text-align: center;
 }
+.btn-center
+{
+  text-align:center;
+}
