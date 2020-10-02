@@ -6,7 +6,10 @@ body {
 {
   background-color:#6addff;
 }
-
+.container
+{
+  max-width:200px;
+}
 .card-img-top
 {
   max-width: 500px;
