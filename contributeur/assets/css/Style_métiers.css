@@ -1,0 +1,251 @@
+
+body {
+	font-size: 10px;
+	font-family: 'Montserrat', sans-serif;
+	scroll-behavior: smooth;
+}
+
+.container {
+	min-height: 100vh;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+img {
+	height: 100%;
+	width: 100%;
+	object-fit: cover;
+}
+p {
+	color: black;
+	font-size: 1.4rem;
+	margin-top: 5px;
+	line-height: 2.5rem;
+	font-weight: 300;
+	letter-spacing: .05rem;
+}
+
+h2 {
+	font-size: 20px;
+	text-transform: uppercase;
+	color: white;
+}
+h1{
+	font-weight: 300;
+	color: black;
+	margin-bottom: 10px;
+	text-transform: uppercase;
+	letter-spacing: .2rem;
+	text-align: center;
+}
+span {
+	color: crimson;
+}
+
+/* Header section */
+.navbar{
+    position: fixed;
+    z-index: 1000;
+	left: 0;
+	top: 0;
+	width: 100vw;
+	height: auto;
+}
+.lienMetier {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    font-size: 20px;
+}
+/* End Header section */
+
+
+
+/* Competences Section */
+
+.competences {
+	flex-direction: column;
+	text-align: center;
+	max-width: 1500px;
+	margin: 0 auto;
+	padding: 100px 0;
+}
+.competences-top {
+	max-width: 500px;
+	margin: 0 auto;
+}
+
+.competences-item {
+	justify-content: center;
+	padding: 30px;
+	border-radius: 10px;
+	background-image: url(../images/métier.jpg);
+	background-size: cover;
+	background-position-x: center;
+	margin: 20px ;
+	position: relative;
+	z-index: 1;
+	overflow: hidden;
+}
+.competences-item::after {
+	content: '';
+	position: absolute;
+	left: 0;
+	top: 0;
+	height: 100%;
+	width: 100%;
+	background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
+	opacity: .9;
+	z-index: -1;
+}
+.competences-bottom .icon {
+	height: 80px;
+	width: 80px;
+	margin-bottom: 20px;
+}
+
+.competences-item p {
+	color: white;
+	text-align: left;
+}
+/* End Competences Section */
+
+/* Etudes section */
+.etudes {
+	flex-direction: column;
+	text-align: center;
+	max-width: 1500px;
+	margin: 0 auto;
+	padding: 100px 0;
+}
+
+.etudes-top{
+	max-width: 500px;
+	margin: 0 auto;
+}
+
+.etudes-item {
+	justify-content: center;
+	padding: 30px;
+	border-radius: 10px;
+	background-image: url(../images/etudes.png);
+	background-size: cover;
+	background-position-x: center;
+	margin: 20px;
+	position: relative;
+	z-index: 1;
+	overflow: hidden;
+}
+.etudes-item::after {
+	content: '';
+	position: absolute;
+	left: 0;
+	top: 0;
+	height: 100%;
+	width: 100%;
+	background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
+	opacity: .9;
+	z-index: -1;
+}
+.etudes .icon {
+	height: 80px;
+	width: 80px;
+	margin-bottom: 20px;
+}
+
+.etudes-item p {
+	color: white;
+}
+/* End Etudes section */
+
+/* Salaire Section */
+.salaire {
+	flex-direction: column-reverse;
+	text-align: center;
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 100px 20px;
+}
+.col-left {
+	width: 250px;
+	height: 360px;
+}
+.col-right {
+	width: 100%;
+}
+.col-right .cta {
+	color: black;
+	margin-bottom: 50px;
+	padding: 10px 20px;
+	font-size: 2rem;
+}
+.col-left .salaire-img {
+	height: 100%;
+	width: 100%;
+	position: relative;
+	border: 10px solid white;
+}
+.col-left .salaire-img::after {
+	content: '';
+	position: absolute;
+	left: -33px;
+	top: 19px;
+	height: 98%;
+	width: 98%;
+	border: 7px solid crimson;
+	z-index: -1;
+}
+/* End About Section */
+
+/* Sources Section */
+.sources {
+	flex-direction: column;
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
+.sources-item {
+	padding: 10px;
+	text-align: center;
+	border-radius: 10px;
+	padding:15px;
+	margin: 15px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	box-shadow: 0px 0px 18px 0 #0000002c;
+	transition: .3s ease box-shadow;
+}
+.sources-item:hover {
+	box-shadow: 0px 0px 5px 0 #0000002c;
+}
+#sources.icon {
+	width: 50px;
+	margin: 0 auto;
+	margin-bottom: 10px;
+}
+/*End Sources Section */
+
+/* Footer */
+#footer {
+	background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
+}
+.footer {
+	min-height: 200px;
+	flex-direction: column;
+	padding-top: 50px;
+	padding-bottom: 10px;
+}
+#footer h2 {
+	color: white;
+	font-weight: 500;
+	font-size: 1.8rem;
+	letter-spacing: .1rem;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+
+/* End Footer */
